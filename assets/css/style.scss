@@ -338,6 +338,26 @@ li { margin-bottom: 0.4rem; }
   .pub { page-break-inside: avoid; }
 }
 
+/* ---------- Profile photo ---------- */
+.profile-square {
+  float: left;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin: 0.25rem 1.5rem 0.75rem 0;
+  border: 1px solid var(--rule);
+}
+
+@media (max-width: 640px) {
+  .profile-square {
+    float: none;
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 1.25rem;
+  }
+}
+
 /* ---------- 13. Dark mode (auto, optional) ------------------------ */
 @media (prefers-color-scheme: dark) {
   :root {
