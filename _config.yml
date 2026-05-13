@@ -3,6 +3,74 @@
 # =============================================================================
 title:               "Maurizio Romano"
 description:         "Assistant Professor in Statistics at the University of Cagliari. Research in Natural Language Processing, Statistical Learning, and Preference Rankings."
+url:                 "https://maurizioromano.github.io"   # <-- replace YOURUSERNAME with your GitHub username
+baseurl:             ""                                  # leave empty if site is at root; use "/repo-name" otherwise
+repository:          "maurizioromano/maurizioromano.github.io"
+
+# =============================================================================
+# Author / Owner
+# =============================================================================
+author:
+  name:              "Maurizio Romano"
+  role:              "Assistant Professor (RTD-A) in Statistics"
+  affiliation:       "University of Cagliari"
+  department:        "Department of Business and Economics"
+  email:             "romano.maurizio@unica.it"          # <-- update if different
+  location:          "Cagliari, Italy"
+  orcid:             "0000-0001-8947-2220"                                  # <-- add ORCID id, e.g. 0000-0000-0000-0000
+  google_scholar:    ""                                  # <-- add Scholar user id once profile is created
+  github:            "maurizioromano"                                  # <-- your GitHub username
+  linkedin:          ""                                  # <-- LinkedIn handle (optional)
+  unica_profile:     "https://web.unica.it/unica/page/it/maurizio_romano92"   # <-- verify the exact URL
+  cv_pdf:            "/files/cv_maurizio_romano.pdf"
+
+# =============================================================================
+# Build settings
+# =============================================================================
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title/
+encoding:            "utf-8"
+include:             [".htaccess"]
+exclude:             ["README.md", "Gemfile", "Gemfile.lock", "vendor", "node_modules"]
+
+# Collections (academicpages-style)
+collections:
+  publications:
+    output:          true
+    permalink:       /publication/:path/
+  teaching:
+    output:          true
+    permalink:       /teaching/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path:          ""
+      type:          publications
+    values:
+      layout:        single
+  - scope:
+      path:          ""
+      type:          teaching
+    values:
+      layout:        single
+  - scope:
+      path:          ""
+      type:          pages
+    values:
+      layout:        single
+
+# Plugins (GitHub Pages-supported)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+# =============================================================================
+# Site settings
+# =============================================================================
+title:               "Maurizio Romano"
+description:         "Assistant Professor in Statistics at the University of Cagliari. Research in Natural Language Processing, Statistical Learning, and Preference Rankings."
 url:                 "https://YOURUSERNAME.github.io"   # <-- replace YOURUSERNAME with your GitHub username
 baseurl:             ""                                  # leave empty if site is at root; use "/repo-name" otherwise
 repository:          "YOURUSERNAME/YOURUSERNAME.github.io"
