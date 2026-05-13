@@ -5,6 +5,8 @@ permalink: /
 description: "Maurizio Romano — Assistant Professor in Statistics at the University of Cagliari. Research in NLP, statistical learning, and preference rankings."
 ---
 
+<img src="{{ '/images/profile.jpg' | relative_url }}" alt="Maurizio Romano" class="profile-square">
+
 <p>
 I am an <strong>Assistant Professor (RTD-A)</strong> in Statistics at the
 <a href="https://www.unica.it/unica/en/dip_economiaeaziendale.page">Department of Business and Economics</a>,
@@ -37,7 +39,7 @@ at the Universidad de Valladolid for PREFSTAT 2026.
   <dt>ORCID</dt>      <dd>{% if site.author.orcid %}<a href="https://orcid.org/{{ site.author.orcid }}">{{ site.author.orcid }}</a>{% else %}<em>to be added</em>{% endif %}</dd>
 </dl>
 
-<h2>Research interests</h2>
+<h2 style="clear: both;">Research interests</h2>
 
 <ul class="tag-list">
   <li>Natural Language Processing</li>
