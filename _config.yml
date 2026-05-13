@@ -29,105 +29,29 @@ author:
 # =============================================================================
 markdown:            kramdown
 highlighter:         rouge
-permalink:           /:title/
 encoding:            "utf-8"
-include:             [".htaccess"]
-exclude:             ["README.md", "Gemfile", "Gemfile.lock", "vendor", "node_modules"]
 
-# Collections (academicpages-style)
-collections:
-  publications:
-    output:          true
-    permalink:       /publication/:path/
-  teaching:
-    output:          true
-    permalink:       /teaching/:path/
+# IMPORTANT: tell Jekyll to also process the _pages folder.
+# Folders starting with "_" are ignored by default; without this line
+# the /research/, /publications/, /teaching/, /cv/ pages return 404.
+include:
+  - "_pages"
+  - ".htaccess"
 
-# Defaults
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "vendor"
+  - "node_modules"
+
+# Apply the default layout to every page in _pages automatically
 defaults:
-  - scope:
-      path:          ""
-      type:          publications
-    values:
-      layout:        single
-  - scope:
-      path:          ""
-      type:          teaching
-    values:
-      layout:        single
   - scope:
       path:          ""
       type:          pages
     values:
-      layout:        single
-
-# Plugins (GitHub Pages-supported)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-# =============================================================================
-# Site settings
-# =============================================================================
-title:               "Maurizio Romano"
-description:         "Assistant Professor in Statistics at the University of Cagliari. Research in Natural Language Processing, Statistical Learning, and Preference Rankings."
-url:                 "https://YOURUSERNAME.github.io"   # <-- replace YOURUSERNAME with your GitHub username
-baseurl:             ""                                  # leave empty if site is at root; use "/repo-name" otherwise
-repository:          "YOURUSERNAME/YOURUSERNAME.github.io"
-
-# =============================================================================
-# Author / Owner
-# =============================================================================
-author:
-  name:              "Maurizio Romano"
-  role:              "Assistant Professor (RTD-A) in Statistics"
-  affiliation:       "University of Cagliari"
-  department:        "Department of Business and Economics"
-  email:             "maurizio.romano@unica.it"          # <-- update if different
-  location:          "Cagliari, Italy"
-  orcid:             ""                                  # <-- add ORCID id, e.g. 0000-0000-0000-0000
-  google_scholar:    ""                                  # <-- add Scholar user id once profile is created
-  github:            ""                                  # <-- your GitHub username
-  linkedin:          ""                                  # <-- LinkedIn handle (optional)
-  unica_profile:     "https://web.unica.it/unica/page/it/maurizio_romano"   # <-- verify the exact URL
-  cv_pdf:            "/files/cv_maurizio_romano.pdf"
-
-# =============================================================================
-# Build settings
-# =============================================================================
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title/
-encoding:            "utf-8"
-include:             [".htaccess"]
-exclude:             ["README.md", "Gemfile", "Gemfile.lock", "vendor", "node_modules"]
-
-# Collections (academicpages-style)
-collections:
-  publications:
-    output:          true
-    permalink:       /publication/:path/
-  teaching:
-    output:          true
-    permalink:       /teaching/:path/
-
-# Defaults
-defaults:
-  - scope:
-      path:          ""
-      type:          publications
-    values:
-      layout:        single
-  - scope:
-      path:          ""
-      type:          teaching
-    values:
-      layout:        single
-  - scope:
-      path:          ""
-      type:          pages
-    values:
-      layout:        single
+      layout:        default
 
 # Plugins (GitHub Pages-supported)
 plugins:
