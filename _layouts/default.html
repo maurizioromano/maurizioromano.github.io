@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:type" content="profile">
+
+  <!-- Fonts: Newsreader (serif) + JetBrains Mono (mono) + Inter Tight (sans, light use) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="shell">
+      <h1 class="site-header__name"><a href="{{ '/' | relative_url }}" style="border:none;color:inherit">{{ site.author.name }}</a></h1>
+      <p class="site-header__tagline">{{ site.author.role }} · {{ site.author.affiliation }}</p>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}"             {% if page.url == '/' %}class="is-active"{% endif %}>home</a>
+        <a href="{{ '/research/' | relative_url }}"    {% if page.url contains 'research' %}class="is-active"{% endif %}>research</a>
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url contains 'publications' %}class="is-active"{% endif %}>publications</a>
+        <a href="{{ '/teaching/' | relative_url }}"    {% if page.url contains 'teaching' %}class="is-active"{% endif %}>teaching</a>
+        <a href="{{ '/cv/' | relative_url }}"          {% if page.url contains 'cv' %}class="is-active"{% endif %}>cv</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;width:100%;">
+      <span>© {{ 'now' | date: '%Y' }} {{ site.author.name }} · Cagliari</span>
+      <span>
+        {% if site.author.email %}<a href="mailto:{{ site.author.email }}">email</a> · {% endif %}
+        {% if site.author.orcid %}<a href="https://orcid.org/{{ site.author.orcid }}">orcid</a> · {% endif %}
+        {% if site.author.google_scholar %}<a href="https://scholar.google.com/citations?user={{ site.author.google_scholar }}">scholar</a> · {% endif %}
+        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">github</a>{% endif %}
+      </span>
+    </div>
+  </footer>
+
+</body>
+</html>
