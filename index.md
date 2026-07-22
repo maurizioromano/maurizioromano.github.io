@@ -57,6 +57,18 @@ at the Universidad de Valladolid for PREFSTAT 2026.
 
 <ul class="news-list">
   <li>
+    <time>2026 — Jul</time>
+    <span>Two R packages published on <strong>CRAN</strong>: <a href="https://cran.r-project.org/package=tbnb">tbnb</a> (Threshold-based Naïve Bayes) and <a href="https://cran.r-project.org/package=TheOrdinals">TheOrdinals</a> (DIVA consensus for preference-approvals).</span>
+  </li>
+  <li>
+    <time>2026 — Sep</time>
+    <span>Chair and organizer of the invited session <strong>"Navigating Complexity"</strong> at ECDA 2026 (Stralsund), with speakers from Tokyo Metropolitan, UC Dublin, and Sapienza.</span>
+  </li>
+  <li>
+    <time>2026 — Dec</time>
+    <span>Invited talk at <strong>CFE-CMStatistics 2026 (ERCIM)</strong>, session "Advances in preference learning".</span>
+  </li>
+  <li>
     <time>2026 — Jun</time>
     <span>Visiting Professor at <strong>Universidad de Valladolid</strong> for PREFSTAT 2026 (Third Summer School on Preference, Ranking & Ordinal Data).</span>
   </li>
@@ -75,14 +87,6 @@ at the Universidad de Valladolid for PREFSTAT 2026.
   <li>
     <time>2025 — Oct</time>
     <span>Visiting Professor at <strong>Tokyo Metropolitan University</strong>, hosted by Prof. Atsuho Nakayama, for the MGR-funded project "General Sentiment Decomposition".</span>
-  </li>
-  <li>
-    <time>2025 — Jun</time>
-    <span>Invited lecture at the <strong>65th ISI World Statistics Congress</strong>: "Particle Swarm Optimization in preference rankings".</span>
-  </li>
-  <li>
-    <time>2025 — Jun</time>
-    <span>Visiting Professor at <strong>Universitetet i Oslo</strong> for PREFSTAT 2025.</span>
   </li>
 </ul>
 
