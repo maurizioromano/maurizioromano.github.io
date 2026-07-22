@@ -59,6 +59,16 @@ key references: Ortu, Romano, Carta (2024, BDR); Frigau, Romano, Ortu, Contu (20
 Priola, Romano (2025, EJASA).
 </p>
 
+<h2>Software</h2>
+
+<p>
+The methods above are released as open-source R packages on CRAN:
+<a href="https://cran.r-project.org/package=tbnb"><span class="mono">tbnb</span></a>
+implements the Threshold-based Naïve Bayes classifiers (Tb-NB and iTb-NB), and
+<a href="https://cran.r-project.org/package=TheOrdinals"><span class="mono">TheOrdinals</span></a>
+implements the DIVA distance-based consensus algorithm for preference-approvals.
+</p>
+
 <h2>Funded projects (selected)</h2>
 
 <ul>
@@ -89,7 +99,6 @@ Priola, Romano (2025, EJASA).
 
 <p>
 Claudio Conversano, Francesco Mola, Giulia Contu, Giulia Zammarchi, Luca Frigau, Marco Ortu
-(Cagliari); Antonio D'Ambrosio, Roberta Siciliano (Naples Federico II); Antonio Albano (Palermo);
-Valeria Vitelli (Oslo); Adalbert F. X. Wilhelm (Bremen); Atsuho Nakayama (Tokyo Metropolitan);
+(Cagliari); Antonio D'Ambrosio, Roberta Siciliano (Naples Federico II); Alessandro Albano (Palermo); Cristina Mollica (Sapienza University of Rome); Valeria Vitelli (Oslo); Adalbert F. X. Wilhelm (Bremen); Atsuho Nakayama (Tokyo Metropolitan);
 Tomàs Aluja Banet (UPC Barcelona); José Luis García-Lapresta (Valladolid).
 </p>
