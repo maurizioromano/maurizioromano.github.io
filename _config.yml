@@ -22,7 +22,7 @@ author:
   github:            "maurizioromano"                                  # <-- your GitHub username
   linkedin:          ""                                  # <-- LinkedIn handle (optional)
   unica_profile:     "https://web.unica.it/unica/page/it/maurizio_romano92"   # <-- verify the exact URL
-  cv_pdf:            "/files/cv_maurizio_romano.pdf"
+  cv_pdf:            "/files/cv_maurizio_romano_eng.pdf"
 
 # =============================================================================
 # Build settings
