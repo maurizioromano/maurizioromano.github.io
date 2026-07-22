@@ -54,13 +54,21 @@ A complete and up-to-date version of my CV is available as a PDF:
 <ul>
   <li>ISI — International Statistical Institute</li>
   <li>SIS — Italian Statistical Society (incl. y-SIS, CLADAG, SDS-SIS groups)</li>
+  <li>PREFSTAT — PREFerence STATistics group on Advanced Statistical Learning for Preference, Ranking, and Ordinal Data</li>
 </ul>
 
 <h2>Service</h2>
 <ul>
+  <li><strong>2026</strong> · Chair and organizer, invited session "Navigating Complexity: new methodological frontiers in Textual and Preference Analysis" — ECDA 2026, Stralsund.</li>
   <li><strong>2024</strong> · Chair, Local Organizing Committee — PREFSTAT 2024, Calasetta.</li>
   <li><strong>2021</strong> · Technical Chair, SIS 2021 (50th SIS Meeting), Pisa–Cagliari.</li>
-  <li>Referee for: <em>Quality and Quantity</em>, <em>Machine Learning with Applications</em>, <em>Knowledge and Information Systems</em>, <em>Information Processing and Management</em>, <em>Computational Statistics</em>, <em>Journal of Supercomputing</em>, IFCS 2026, and Springer SCDAKO volumes.</li>
+  <li>Referee for: <em>Quality and Quantity</em>, <em>Machine Learning with Applications</em>, <em>Knowledge and Information Systems</em>, <em>Information Processing and Management</em>, <em>Cognitive Computation</em>, <em>Current Issues in Tourism</em>, <em>Operations Research Perspectives</em>, <em>Computational Statistics</em>, <em>Journal of Supercomputing</em>, <em>Journal on Computing and Cultural Heritage</em>, IFCS 2026, and Springer SCDAKO volumes.</li>
+</ul>
+
+<h2>Outreach and Third Mission</h2>
+<ul>
+  <li><strong>2024–2025</strong> · Sharper Night — European Researchers' Night (Cagliari and Nuoro): promoter of outreach projects on sentiment analysis, word embeddings, and language models.</li>
+  <li><strong>2025–2026</strong> · SMART-C: pro bono project for the Municipality of Calasetta on the development of local tourism attractions and resources. Project promoter.</li>
 </ul>
 
 <h2>Technical skills</h2>
