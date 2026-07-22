@@ -82,7 +82,7 @@ on preference and ordinal data.
   <h3>Master's</h3>
   <div class="course">
     <p class="course__title">Big Data Analysis</p>
-    <p class="course__meta">Master in Data Science, Business Analytics & Innovation · 6 ECTS · AY 2024/2025, 2023/2024 (co-prof.)</p>
+    <p class="course__meta">Master in Data Science, Business Analytics & Innovation · 6 ECTS · AY 2024/2025 · AY 2023/2024 (9 ECTS, co-prof.)</p>
   </div>
   <div class="course">
     <p class="course__title">Statistical Learning</p>
