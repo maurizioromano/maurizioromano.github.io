@@ -98,7 +98,7 @@ implements the DIVA distance-based consensus algorithm for preference-approvals.
 <h2>Collaborators</h2>
 
 <p>
-Claudio Conversano, Francesco Mola, Giulia Contu, Giulia Zammarchi, Luca Frigau, Marco Ortu
+Francesco Mola, Claudio Conversano, Giulia Contu, Giulia Zammarchi, Luca Frigau, Marco Ortu
 (Cagliari); Antonio D'Ambrosio, Roberta Siciliano (Naples Federico II); Alessandro Albano (Palermo); Cristina Mollica (Sapienza University of Rome); Valeria Vitelli (Oslo); Adalbert F. X. Wilhelm (Bremen); Atsuho Nakayama (Tokyo Metropolitan);
 Tomàs Aluja Banet (UPC Barcelona); José Luis García-Lapresta (Valladolid).
 </p>
