@@ -138,6 +138,38 @@ Recent links to <span class="mono">DOI</span> are provided where available.
   </li>
 
 </ol>
+<!-- ====================================================================== -->
+<h2>Submitted manuscripts</h2>
+<ol class="pub-list">
+
+  <li class="pub">
+    <span class="pub__num">2026</span>
+    <div class="pub__body">
+      <p class="pub__title">A deterministic and scalable heuristic for median ranking detection: tie-aware local search with optimal tie partitioning on the combined input matrix</p>
+      <p class="pub__authors"><span class="me">Romano M.</span>, D'Ambrosio A., Conversano C.</p>
+      <p class="pub__meta"><span class="venue">European Journal of Operational Research</span> · submitted July 2026</p>
+    </div>
+  </li>
+
+  <li class="pub">
+    <span class="pub__num">2026</span>
+    <div class="pub__body">
+      <p class="pub__title">Consensus for Preference-Approvals with TheOrdinals</p>
+      <p class="pub__authors"><span class="me">Romano M.</span>, Albano A.</p>
+      <p class="pub__meta"><span class="venue">The R Journal</span> · submitted July 2026</p>
+    </div>
+  </li>
+
+  <li class="pub">
+    <span class="pub__num">2026</span>
+    <div class="pub__body">
+      <p class="pub__title">Threshold-Based Naive Bayes Text Classification with the tbnb Package</p>
+      <p class="pub__authors"><span class="me">Romano M.</span></p>
+      <p class="pub__meta"><span class="venue">The R Journal</span> · submitted July 2026</p>
+    </div>
+  </li>
+
+</ol>
 
 <!-- ====================================================================== -->
 <h2>Book chapters</h2>
@@ -200,6 +232,24 @@ Recent links to <span class="mono">DOI</span> are provided where available.
 <h2>Conference proceedings</h2>
 <ol class="pub-list" start="15">
 
+<li class="pub">
+    <span class="pub__num">2026</span>
+    <div class="pub__body">
+      <p class="pub__title">Rank aggregation problem: an hybrid preference learning framework <em>(invited session)</em></p>
+      <p class="pub__authors"><span class="me">Romano M.</span></p>
+      <p class="pub__meta">In <span class="venue">Book of Abstracts ECDA 2026 — European Conference on Data Analysis</span>, Stralsund, 9–11 September 2026</p>
+    </div>
+  </li>
+
+  <li class="pub">
+    <span class="pub__num">2026</span>
+    <div class="pub__body">
+      <p class="pub__title">From clinical narratives to evidence: a statistical text analysis of perpetrator intervention programs <em>(invited session)</em></p>
+      <p class="pub__authors">Mollica C., <span class="me">Romano M.</span>, Deriu F.</p>
+      <p class="pub__meta">In <span class="venue">Book of Abstracts ECDA 2026 — European Conference on Data Analysis</span>, Stralsund, 9–11 September 2026</p>
+    </div>
+  </li>
+
   <li class="pub">
     <span class="pub__num">2025</span>
     <div class="pub__body">
@@ -224,7 +274,7 @@ Recent links to <span class="mono">DOI</span> are provided where available.
   <li class="pub">
     <span class="pub__num">2025</span>
     <div class="pub__body">
-      <p class="pub__title">Balancing performance and environmental efficiency: a multiclass classification study of textual data</p>
+      <p class="pub__title">Weakly Supervised Anterior Lens Surface Segmentation for Cataract Detection</p>
       <p class="pub__authors">Ibba G., Calderón Ramírez S., Abreu Cárdenas M., Masis-Solano M., <span class="me">Romano M.</span></p>
       <p class="pub__meta"><span class="venue">2025 IEEE 7th International Conference on Bio-Inspired Processing (BIP)</span> · ISBN 979-8-3315-7014-9</p>
     </div>
@@ -383,6 +433,32 @@ Recent links to <span class="mono">DOI</span> are provided where available.
       <p class="pub__title">Benchmarking Naïve Bayes classifiers</p>
       <p class="pub__authors"><span class="me">Romano M.</span></p>
       <p class="pub__meta">Working paper</p>
+    </div>
+  </li>
+
+</ol>
+
+<!-- ====================================================================== -->
+<h2>Software — R packages on CRAN</h2>
+<ol class="pub-list">
+
+  <li class="pub">
+    <span class="pub__num">2026</span>
+    <div class="pub__body">
+      <p class="pub__title">tbnb — Threshold-Based Naive Bayes text classification</p>
+      <p class="pub__authors"><span class="me">Romano M.</span></p>
+      <p class="pub__meta">v0.1.0 · implements Tb-NB and iTb-NB · published on CRAN, July 2026 ·
+        <a href="https://cran.r-project.org/package=tbnb">cran.r-project.org/package=tbnb</a></p>
+    </div>
+  </li>
+
+  <li class="pub">
+    <span class="pub__num">2026</span>
+    <div class="pub__body">
+      <p class="pub__title">TheOrdinals — Consensus methods for preference-approvals</p>
+      <p class="pub__authors"><span class="me">Romano M.</span></p>
+      <p class="pub__meta">v0.1.0 · implements the DIVA algorithm · published on CRAN, July 2026 ·
+        <a href="https://cran.r-project.org/package=TheOrdinals">cran.r-project.org/package=TheOrdinals</a></p>
     </div>
   </li>
 
